@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Deny'sTale</title>
+    <link rel="icon" href="css/img/logo.png">
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/formulario.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+	<header>
+		<div class="container hero">
+            <div class="atencion-cliente">
+                <i class='bx bx-support'></i>
+                <div class="contenedor-atencion-cliente">
+                    <span class="text">Soporte al cliente</span>
+                    <span class="number">123-456-7890</span>
+                </div>
+            </div>
+
+            <div class="contenedor-logo">
+                <img src="css/img/logo.png" alt="">
+                <h1 class="logo"><a href="#">Deny'sTale</a></h1>
+            </div>
+
+            <div class="container-user">
+                <i class='bx bxs-user'></i>
+                <i class='bx bxs-basket' ></i>
+                <div class="content-shopping-cart">
+                    <span class="text">Carrito</span>
+                    <span class="number">(0)</span>
+                </div>
+            </div>
+        </div>
+
+		<div class="container-navbar">
+			<nav class="navbar container">
+				<i class='bx bx-menu'></i>
+				<ul class="menu">
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="nosotros.html">Nosotros</a></li>
+					<li><a href="libros.html">Libros</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+				</ul>
+
+				<form class="form-b">
+					<input type="search" placeholder="Buscar..." />
+					<button class="btn-b">
+						<i class='bx bx-search-alt-2' ></i>
+					</button>
+				</form>
+			</nav>
+		</div>
+	</header>
+
+    <section class="contenedor-formulario">
+        <h1>Formulario Clientes</h1>
+        <form action="#" class="formulario">
+            <div class="textInput">
+                <label>ID </label><span class="obligatorio">*</span>
+                <input type="number" placeholder="Escribe tu ID de cliente" required>
+            </div>
+
+            <div class="textInput">
+                <label>Nombre Completo </label><span class="obligatorio">*</span>
+                <input type="text" placeholder="Escribe tu nombre completo" required>
+            </div>
+
+            <div class="inputGenero">
+                <h3>Genero </h3><span class="obligatorio">*</span>
+                <div class="opcionGenero">
+                    <div class="genero">
+                        <input type="radio" name="genero" id="hombre" checked>
+                        <label for="hombre">Hombre</label>
+                    </div>
+                    <div class="genero">
+                        <input type="radio" name="genero" id="mujer">
+                        <label for="mujer">Mujer</label>
+                    </div>
+                    <div class="genero">
+                        <input type="radio" name="genero" id="otro">
+                        <label for="otro">Prefiero no decir</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="columna">
+                <div class="textInput">
+                    <label>Número de teléfono </label><span class="obligatorio">*</span>
+                    <input type="text" placeholder="Escribe tu número de teléfono" required>
+                </div>
+
+                <div class="textInput">
+                    <label>Fecha de Nacimiento </label><span class="obligatorio">*</span>
+                    <input type="date" required>
+                </div>
+            </div>
+
+            <div class="textInput">
+                <label>Correo Electrónico </label><span class="obligatorio">*</span>
+                <input type="text" placeholder="Escribe tu correo electrónico" required>
+            </div>
+
+            <div class="textInput">
+                <label>Dirección </label><span class="obligatorio">*</span>
+                <input type="text" placeholder="Escribe tu dirección" required>
+            </div>
+
+            <div class="textInput">
+                <label>Puntos Acumulados</label><span class="obligatorio">*</span>
+                <input type="number" placeholder="Escribe tus puntos acumulados" required>
+            </div>
+
+            <div class="textInput">
+                <label>Contraseña </label><span class="obligatorio">*</span>
+                <input type="password" placeholder="Escribe tu contraseña" required>
+            </div>
+
+            <div class="textInput">
+                <span class="obligatorio">*</span><label> Campos obligatorios</label>
+            </div>
+
+            <button>Enviar</button>
+        </form>
+    </section>
+
+	<footer class="footer">
+		<div class="container container-footer">
+			<div class="menu-footer">
+				<div class="contact-info">
+					<p class="title-footer">Nuestras redes sociales</p>
+					<div class="social-icons">
+						<span class="facebook">
+							<i class='bx bxl-facebook' ></i>
+						</span>
+						<span class="twitter">
+							<i class='bx bxl-twitter' ></i>
+						</span>
+						<span class="youtube">
+							<i class='bx bxl-youtube'></i>
+						</span>
+						<span class="pinterest">
+							<i class='bx bxl-pinterest-alt' ></i>
+						</span>
+						<span class="instagram">
+							<i class='bx bxl-instagram' ></i>
+						</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="creditos">
+				<p>
+					Garcia Joaquin Jennifer Denisse 5°I
+				</p>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>

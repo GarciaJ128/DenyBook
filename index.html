@@ -1,106 +1,168 @@
-<DOCTYPE! html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <title>Plantilla</title>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Deny'sTale</title>
+    <link rel="icon" href="css/img/logo.png">
+	<link rel="stylesheet" href="css/style.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
-<body class="hello">
-  <header>
-    <h1>Nombre de mi negocio mas logo</h1>
-  </header>
-  
- <head>
-    <title>Barra de navegacion transparente</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head> 
-  <body>
-    <div id="nave"><br>
-     <div id="nave_wrapper"><br>
-       <ul>
-         <li><a href="#">Inicio</a></li>
-         <li><a href="#">Preguntas</a></li>
-         <li><a href="#">Servicios</a></li>
-         <li><a href="#">Portafolio</a></li>
-         <li><a href="#">contacto</a></li>
-       </ul>
-     </div>
-  </div>
-  
-  <section>
-   Menu de sección
-    <div class="row">
-  <div class="left" style="background-color:#bbb;">
-    <h2>Menu</h2>
-    <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
-    <ul id="myMenu">
-      <li><a href="#">HTML</a></li>
-      <li><a href="#">CSS</a></li>
-      <li><a href="#">JavaScript</a></li>
-      <li><a href="#">PHP</a></li>
-      <li><a href="#">Python</a></li>
-      <li><a href="#">jQuery</a></li>
-      <li><a href="#">SQL</a></li>
-      <li><a href="#">Bootstrap</a></li>
-      <li><a href="#">Node.js</a></li>
-    </ul>
-  </div>
-  
-     <!-- -->
-     
-  <div class="right" style="background-color:#49a9b3;">
-  <!-- // -->
-    <div class="center" style="background-color:#102528;">
-        <h2>Migas de Pan</h2>
-      </div>
-    
-    
-    
-    <h2>Pagina de contenido</h2>
-      
-  <!-- // datalist-->
-    <form action="/action_page.php" method="get" >
-      <input list="browsers" name="browser">
-  <datalist id="browsers">
-    
-    <option value="Internet Explorer">
-    <option value="Firefox">
-    <option value="Chrome">
-    <option value="Opera">
-    <option value="Safari">
-  </datalist>
-  <input type="submit">
-</form>
-   
-    <!-- // email-->
-     
-<form action="#">
 
+<body>
+	<header>
+		<div class="container hero">
+            <div class="atencion-cliente">
+                <i class='bx bx-support'></i>
+                <div class="contenedor-atencion-cliente">
+                    <span class="text">Soporte al cliente</span>
+                    <span class="number">123-456-7890</span>
+                </div>
+            </div>
 
-    <!--•	Required•	Autocomplete -->
-    <form>
-  <legend class="form__legend">
-Mandanos un mensaje</legend>
-  <fieldset  class="form__fieldset">
-    <div class="form__row">
-      <label class="form__label" for="name">Nombre</label>
-      <input class="form__textinput"  name="name" id="name" type="text" required autofocus>
-    </div>
-    <div class="form__row">
-        <label class="form__label" for="email"> email</label>
-        <input class="form__textinput" name="email" id="email"  type="email"  required>
-    </div>
-    <div class="form__row">
-      <label class="form__label" for="message">Mensaje</label>
-      <textarea class="form__textarea" name="message" id="message"  required ></textarea>
-    </div>
-      <button class="form__submit" name="submit" type="submit" id="contact-submit" >Envianos tu mensaje</button>
-        </fieldset>
-</form>
-   
+            <div class="contenedor-logo">
+                <img src="css/img/logo.png" alt="">
+                <h1 class="logo"><a href="#">Deny'sTale</a></h1>
+            </div>
 
-  
-  <footer>
-    Jennifer Denisse Garcia Joaquin 15/sep/2023 
-  </footer>
+            <div class="container-user">
+                <i class='bx bxs-user'></i>
+                <i class='bx bxs-basket' ></i>
+                <div class="content-shopping-cart">
+                    <span class="text">Carrito</span>
+                    <span class="number">(0)</span>
+                </div>
+            </div>
+        </div>
+
+		<div class="container-navbar">
+			<nav class="navbar container">
+				<i class='bx bx-menu'></i>
+				<ul class="menu">
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="nosotros.html">Nosotros</a></li>
+					<li><a href="libros.html">Libros</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+				</ul>
+
+				<form class="form-b">
+					<input type="search" placeholder="Buscar..." />
+					<button class="btn-b">
+						<i class='bx bx-search-alt-2' ></i>
+					</button>
+				</form>
+			</nav>
+		</div>
+	</header>
+
+	<section class="eslogan">
+		<div class="contenido-eslogan">
+			<p>Deny'sTale</p>
+			<h2>Donde los libros <br /> te llevan a otro <br> mundo</h2>
+			<a href="#masinfo">Ver Más</a>
+		</div>
+	</section>
+
+	<main class="contenido-principal">
+		<section class="container contenido-caracteristicas">
+			<div class="tarjeta-carac">
+				<i class='bx bxs-plane'></i>
+				<div class="contenido-carac">
+					<span>Envío gratuito a nivel internacional</span>
+					<p>En pedido superior a $600</p>
+				</div>
+			</div>
+			<div class="tarjeta-carac">
+				<i class='bx bxs-wallet'></i>
+				<div class="contenido-carac">
+					<span>Contrareembolso</span>
+					<p>100% garantía de devolución de dinero</p>
+				</div>
+			</div>
+			<div class="tarjeta-carac">
+				<i class='bx bxs-gift' ></i>
+				<div class="contenido-carac">
+					<span>Acumula puntos</span>
+					<p>Con cada compra que realices</p>
+				</div>
+			</div>
+			<div class="tarjeta-carac">
+				<i class='bx bx-support' ></i>
+				<div class="contenido-carac">
+					<span>Servicio al cliente 24/7</span>
+					<p>LLámenos 24/7 al 123-456-7890</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="container prin-info">
+			<h1 class="heading-1" id="masinfo">ACERCA DE</h1>
+			<div class="contenedor-info">
+				<div class="carta-info info-libro">
+					<p>Libro</p>
+					<a href="frmlibro.html" target="_self">Formulario</a>
+					<a href="tbllibro.html" target="_self">Tabla</a>
+				</div>
+				<div class="carta-info info-cliente">
+					<p>Cliente</p>
+					<a href="frmcliente.html" target="_self">Formulario</a>
+					<a href="tblcliente.html" target="_self">Tabla</a>
+				</div>
+				<div class="carta-info info-compra">
+					<p>Compra</p>
+					<a href="frmcompra.html" target="_self">Formulario</a>
+					<a href="tblcompra.html" target="_self">Tabla</a>
+				</div>
+			</div>
+            <div class="contenedor-info2">
+				<div class="carta-info info-reserva">
+					<p>Reserva</p>
+					<a href="frmreserva.html" target="_self">Formulario</a>
+					<a href="tblreserva.html" target="_self">Tabla</a>
+				</div>
+				<div class="carta-info info-autor">
+					<p>Autor</p>
+					<a href="frmautor.html" target="_self">Formulario</a>
+					<a href="tblautor.html" target="_self">Tabla</a>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="footer">
+		<div class="container container-footer">
+			<div class="menu-footer">
+				<div class="contact-info">
+					<p class="title-footer">Nuestras redes sociales</p>
+					<div class="social-icons">
+						<span class="facebook">
+							<i class='bx bxl-facebook' ></i>
+						</span>
+						<span class="twitter">
+							<i class='bx bxl-twitter' ></i>
+						</span>
+						<span class="youtube">
+							<i class='bx bxl-youtube'></i>
+						</span>
+						<span class="pinterest">
+							<i class='bx bxl-pinterest-alt' ></i>
+						</span>
+						<span class="instagram">
+							<i class='bx bxl-instagram' ></i>
+						</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="creditos">
+				<p>
+					Garcia Joaquin Jennifer Denisse 5°I
+				</p>
+			</div>
+		</div>
+	</footer>
 </body>
+
 </html>
